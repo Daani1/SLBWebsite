@@ -1,13 +1,14 @@
-import React from 'react';
-//import Navbar from "./components/Navbar";
-//import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import './App.css';
+import React from "react";
+import { FooterContainer } from './containers/footer'
 
-
-function App() {
-  return (
-    <h1>Yo</h1>
-  );
+function App ()
+{
+    return 
+    (
+        <>
+            <FooterContainer />
+        </>
+    );
 }
 
 export default App;

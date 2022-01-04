@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     padding: 80px 60px;
-    background: radial-gradient(circle, rgba(92, 39, 251, 1) 0%, rgb(112, 71, 247, 1) 100%)
+    background: radial-gradient(circle, rgba(92, 39, 251, 1) 0%, rgb(112, 71, 247, 1) 100%);
 `
 export const Wrapper = styled.div`
     display: flex;
@@ -16,16 +16,16 @@ export const Column = styled.div`
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin-left: 60px;
+    margin-left: 10px;
 `
 
 export const Row = styled.div`
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-    grid-gap: 20px;
+    grid-gap: 5px;
     
     @media (max-width: 1000px) {
-        grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     }
 `
 

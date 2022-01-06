@@ -1,31 +1,36 @@
-import styled from "styled-components";
+import React, { useState } from 'react';
+import Video from '../../videos/video.mp4';
+import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, 
+        HeroBtnWrapper, ArrowForward, ArrowRight } from './HeroElements';
 
-export const HeroContainer = styled.div`
-    background: #0c0c0c;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 30px;
-    height: 800px;
-    position: relative;
-    z-index: 1;
-`
 
-export const HeroBg = styled.div`
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-`
+const HeroSection = () => {
+        
+    const [hover, setHover] = useState(false)
+    
+    const onHover = () => {     
+        setHover(!hover);
+    };
+    
+    return (
+        <HeroContainer>
+            <HeroBg>
+                <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
+            </HeroBg> 
+            <HeroContent>
+                <HeroH1>This is hero section header 1</HeroH1>
+                <HeroP>
+                    This will be the paragraph section of the 
+                    hero section
+                </HeroP>
+                <HeroBtnWrapper>
+                    <Button to="signup" onMouseEner={onHover} onMouseLeave={onHover}>
+                        Get Started {hover ? <ArrowForward /> : <ArrowRight />}
+                    </Button>
+                </HeroBtnWrapper>
+            </HeroContent>
+        </HeroContainer>
+    )
+}
 
-export const VideoBg = styled.video`
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    background: #232a34;
-`
+export default HeroSection;

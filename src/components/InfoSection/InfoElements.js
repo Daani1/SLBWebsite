@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const InfoContainer = styled.div`
     color: #fff;
-    background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606' )};
+    background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#010606" )};
 
     @media screen and (max-width: 768px)
     {
@@ -24,22 +24,22 @@ export const InfoRow = styled.div`
     display: grid;
     grid-auto-columns: minmax(auto, 1fr);
     align-items: center;
-    grid-template-areas: ${({ imgStart }) => imgStart ? `'col2 col1'` : `'col1 col2'` };
+    grid-template-areas: ${({ imgStart }) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
 
     @media screen and (max-width: 768px)
     {
-        grid-template-areas: ${({ imgStart }) => imgStart ? `'col2 col1'` : `'col1 col1' 'col2 col2'`};
+        grid-template-areas: ${({ imgStart }) => (imgStart ? `'col2 col1'` : `'col1 col1' 'col2 col2'`)};
     }
 `
 export const Column1 = styled.div`
     margin-bottom: 15px;
     padding: 0 15px;
-    grid: col1;
+    grid-area: col1;
 `
 export const Column2 = styled.div`
     margin-bottom: 15px;
     padding: 0 15px;
-    grid: col2;
+    grid-area: col2;
 `
 
 export const TextWrapper = styled.div`
@@ -86,7 +86,11 @@ export const ImgWrap = styled.div`
 `
 export const Img = styled.img`
     width: 100%;
-    margin: 0 0 10px 0;
+    margin: 0px 0px 10px 0px;
     padding-right: 0;
+    @media screen and (max-width: 768px)
+    {
+        margin: -50px 0px 10px 0px;
+    }
     //THE PNG IS SHRINKING LOOK IT UP and FIGUR out WHY
 `

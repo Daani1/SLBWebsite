@@ -28,7 +28,7 @@ export const InfoRow = styled.div`
 
     @media screen and (max-width: 768px)
     {
-        grid-template-areas: ${({ imgStart }) => (imgStart ? `'col2 col1'` : `'col1 col1' 'col2 col2'`)};
+        grid-template-areas: ${({ imgStart }) => imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
     }
 `
 export const Column1 = styled.div`
@@ -61,10 +61,11 @@ export const Heading = styled.h1`
     font-size: 48px;
     line-height: 1.1;
     font-weight: 600;
-    color:  ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606' )};
+    color:  ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606' )}; 
 
     @media screen and (max-width: 480px)
     {
+        color:  ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606' )};
         font-size: 32px;
     }
 `
@@ -86,11 +87,12 @@ export const ImgWrap = styled.div`
 `
 export const Img = styled.img`
     width: 100%;
-    margin: 0px 0px 10px 0px;
+    height: 100%;
+    object-fit: cover;
     padding-right: 0;
     @media screen and (max-width: 768px)
     {
-        margin: -50px 0px 10px 0px;
+        width: 80%;        
     }
     //THE PNG IS SHRINKING LOOK IT UP and FIGUR out WHY
 `

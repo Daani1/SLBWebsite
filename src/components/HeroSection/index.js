@@ -19,16 +19,15 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
             </HeroBg> 
             <HeroContent>
-                <HeroH1>This is home section header 1</HeroH1>
+                <HeroH1>THE INFAMOUS THETA BETA CHAPTER OF THE MOST HONORABLE</HeroH1>
                 <HeroP>
-                    This will be the paragraph section of the 
-                    home section
+                SIGMA LAMBDA BETA INTERNATIONAL FRATERNITY INC.
                 </HeroP>
-                <HeroBtnWrapper>
+                {/* <HeroBtnWrapper>
                     <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
                         Get Started {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
-                </HeroBtnWrapper>
+                </HeroBtnWrapper> */}
             </HeroContent>
         </HeroContainer>
     )

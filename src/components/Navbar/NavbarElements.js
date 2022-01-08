@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import { Link as LinkR } from 'react-router-dom'
 import { Link as LinkS } from 'react-scroll'
+import './Navbar.css'
 
 export const Nav = styled.nav`
     background: #000;
@@ -98,7 +99,8 @@ export const NavBtn = styled.div`
         display: none;
     }
 `
-export const NavBtnLink = styled(LinkR)`
+export const NavBtnLink = styled.a`
+    href: "https://forms.gle/Rc283LmCSbyqGZJS9";
     border-radius: 50px;
     background: #01bf71;
     white-space: nowrap;

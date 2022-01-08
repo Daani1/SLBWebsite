@@ -1,6 +1,7 @@
 import ImgOne from '../../images/svg-2.jpg'
 import ImgTwo from '../../images/svg-1.png'
-import ImgThree from '../../images/svg-3.png'
+import ImgThree from '../../images/svg-4.png'
+import ImgFour from '../../images/svg-3.png'
 
 export const homeObjOne = 
 {
@@ -8,13 +9,13 @@ export const homeObjOne =
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Top Line',
-    headLine: 'HeadLine',
-    description: 'description bl he following download links below contain files of our assets in both vector and commonly u nlike CSS imports, importing a file gives you a string value. This ',
-    buttonLabel: 'Button Label',
+    topLine: 'SLB at UNT',
+    headLine: 'The infamous theta beta chapter of sigma lambda beta',
+    description: 'stablished at the University of North Texas on April 29th, 2001 by 10 men.',
+    buttonLabel: 'Learn More',
     imgStart: false,
     img: ImgOne,
-    alt: 'Car',
+    alt: 'ProfessionalPics',
     dark: true,
     primary: true,
     darkText: false,//for description
@@ -25,35 +26,53 @@ export const homeObjOne =
  //darkText: false, for description
 
  export const homeObjTwo = {
-    id: "discover",
+    id: 'history',
     lightBg: true,
     lightText: false,
     lighttextDesc: false,
-    topLine: "First Line 2",
-    headLine: "Header Line 2",
+    topLine: "History of the Fraternity",
+    headLine: "The beginning of Sigma lambda beta",
     description:
-      "Description 2",
+      "Sigma Lambda Beta International Fraternity Inc. was founded on April 4th, 1986 at the University of Iowa.",
     buttonLabel: "Button 2",
     imgStart: true,
     img: ImgTwo,
-    alt: "Piggybanck",
+    alt: "LinePic",
     dark: false,
     primary: false,
     darkText: true,
   }
 
   export const homeObjThree = {
-    id: "discover",
+    id: 'values',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: "What SLB Embodies",
+    headLine: "The four core principles of Sigma Lambda Beta",
+    description: "Cultural Awareness, Scholarship, Community Service, and Brotherhood",
+    buttonLabel: "Button 3",
+    imgStart: false,
+    img: ImgThree,
+    alt: "CommunityService",
+    dark: true,
+    primary: true,
+    darkText: false,
+  }
+
+  export const homeObjFour = {
+    id: 'qualifications',
     lightBg: true,
     lightText: false,
     lighttextDesc: false,
-    topLine: "First Line 3",
-    headLine: "Header Line 3",
-    description: "Description 3",
-    buttonLabel: "Button 3",
+    topLine: "How to become a brother",
+    headLine: "Qualifications",
+    description:
+      "Full-time (exceptions based on situation)\n2.5 GPA\nRepresents the four principles.",
+    buttonLabel: "Button 4",
     imgStart: true,
-    img: ImgThree,
-    alt: "Piggybanck",
+    img: ImgFour,
+    alt: "LinePic",
     dark: false,
     primary: false,
     darkText: true,

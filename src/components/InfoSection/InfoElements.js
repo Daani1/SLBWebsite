@@ -73,6 +73,7 @@ export const Heading = styled.h1`
 export const Subtitle = styled.p`
     max-width: 440px;
     margin-bottom: 35px;
+    white-space: pre-wrap;
     font-size: 18px;
     line-height: 24px;
     color:  ${({ darkText }) => (darkText ? '#010606' : '#fff' )};
@@ -92,7 +93,7 @@ export const Img = styled.img`
     padding-right: 0;
     @media screen and (max-width: 768px)
     {
-        width: 80%;        
+        width: 75%;        
     }
     //THE PNG IS SHRINKING LOOK IT UP and FIGUR out WHY
 `

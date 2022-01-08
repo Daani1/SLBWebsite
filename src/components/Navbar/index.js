@@ -8,7 +8,7 @@ const Navbar = ({ toggle }) => {
         <>
         <Nav>
             <NavbarContainer>
-                <NavLogo to='/'>dani's website</NavLogo>
+                <NavLogo to='/'>ΣΛΒ</NavLogo>
                 <MobileIcon onClick={toggle}>
                     <FaBars />
                 </MobileIcon>
@@ -17,17 +17,17 @@ const Navbar = ({ toggle }) => {
                         <NavLinks to='about'>About</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to='discover'>Qualifications</NavLinks>
+                        <NavLinks to='history'>History</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to='services'>Values</NavLinks>
+                        <NavLinks to='values'>Values</NavLinks>
                     </NavItem>                    
                     <NavItem>
-                        <NavLinks to='signup'>Contacts</NavLinks>
+                        <NavLinks to='qualifications'>Qualifications</NavLinks>
                     </NavItem>
                 </NavMenu>
                 <NavBtn>
-                    <NavBtnLink to="/signin">Interest Form</NavBtnLink>
+                    <NavBtnLink><a href = "https://forms.gle/Rc283LmCSbyqGZJS9">Interest Form</a></NavBtnLink>
                 </NavBtn>
             </NavbarContainer>
         </Nav>

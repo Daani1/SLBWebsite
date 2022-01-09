@@ -2,6 +2,7 @@ import React from 'react';
 import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, 
          SidebarMenu, SidebarLink, SideBtnWrap, SidebarRoute
        } from './SidebarElements';
+import './Sidebar.css'
 
 const Sidebar = ({ isOpen, toggle }) => {
     return (
@@ -14,18 +15,18 @@ const Sidebar = ({ isOpen, toggle }) => {
                     <SidebarLink to='about' onClick={toggle}>
                         About
                     </SidebarLink>
-                    <SidebarLink to='discover' onClick={toggle}>
-                        Discover
+                    <SidebarLink to='history' onClick={toggle}>
+                        History
                     </SidebarLink>
-                    <SidebarLink to='services' onClick={toggle}>
-                        Services
+                    <SidebarLink to='values' onClick={toggle}>
+                        Values
                     </SidebarLink>
-                    <SidebarLink to='signup' onClick={toggle}>
-                        Sign Up
+                    <SidebarLink to='qualifications' onClick={toggle}>
+                        Qualifications
                     </SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarRoute to="/signin">Sign In</SidebarRoute>
+                    <SidebarRoute><a href="https://forms.gle/Rc283LmCSbyqGZJS9">Interest Form</a></SidebarRoute>
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>

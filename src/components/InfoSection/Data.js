@@ -34,7 +34,7 @@ export const homeObjOne =
     headLine: "The beginning of Sigma lambda beta",
     description:
       "Sigma Lambda Beta International Fraternity Inc. was founded on April 4th, 1986 at the University of Iowa.",
-    buttonLabel: "Button 2",
+    buttonLabel: "Learn More",
     imgStart: true,
     img: ImgTwo,
     alt: "LinePic",
@@ -51,7 +51,7 @@ export const homeObjOne =
     topLine: "What SLB Embodies",
     headLine: "The four core principles of Sigma Lambda Beta",
     description: "Cultural Awareness, Scholarship, Community Service, and Brotherhood",
-    buttonLabel: "Button 3",
+    buttonLabel: "Learn More",
     imgStart: false,
     img: ImgThree,
     alt: "CommunityService",
@@ -69,7 +69,7 @@ export const homeObjOne =
     headLine: "Qualifications",
     description:
       "Full-time (exceptions based on situation)\n2.5 GPA\nRepresents the four principles.",
-    buttonLabel: "Button 4",
+    buttonLabel: "Learn More",
     imgStart: true,
     img: ImgFour,
     alt: "LinePic",

@@ -6,7 +6,7 @@ export const InfoContainer = styled.div`
 
     @media screen and (max-width: 768px)
     {
-        padding: 100px 0;
+        padding: 130px 0px;
     }
 `
 export const InfoWrapper = styled.div `

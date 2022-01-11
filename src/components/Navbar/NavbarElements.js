@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { Link as LinkR } from 'react-router-dom'
 import { Link as LinkS } from 'react-scroll'
-import './Navbar.css'
+
 
 export const Nav = styled.nav`
     background: #000;
@@ -117,6 +117,7 @@ export const NavBtnLink = styled.a`
         transition: all 0.2s ease-in-out;
         color: #ffff;
         background: #C0C0C0;
+
 
     }
 `

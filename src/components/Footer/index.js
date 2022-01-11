@@ -24,6 +24,8 @@ import {
 
 import { animateScroll as scroll } from "react-scroll";
 import SLB from '../../images/SLB.png';
+import './Footer.css';
+
 
 const Footer = () => {
   const toggleHome = () => {
@@ -52,13 +54,15 @@ const Footer = () => {
               <FooterLink to="/">Youtube</FooterLink>
               <FooterLink to="/">Twitter</FooterLink>
             </FooterLinkItems>
-          </FooterLinkWrapper> */}
+          </FooterLinkWrapper>  */}
         </FooterLinkContainer>
         <SocialMedia>
           <SocialMediaWrap>
+          <img src ={SLB} className="footerSLB"></img>
             <SocialLogo to="/" onClick={toggleHome}>
-          {/* <img src ={SLB}></img> */}
-            ΣΛΒ
+            <WebsiteRights>
+            ΣΛΒ © {new Date().getFullYear()} All rights reserved.
+            </WebsiteRights>
             </SocialLogo>
             <SocialIcons>
               <SocialIconLink

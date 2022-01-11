@@ -26,7 +26,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                     </SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarRoute><a href="https://forms.gle/Rc283LmCSbyqGZJS9">Interest Form</a></SidebarRoute>
+                    <SidebarRoute><a href="https://forms.gle/Rc283LmCSbyqGZJS9" className='sidebarBtn'>Interest Form</a></SidebarRoute>
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>

@@ -5,6 +5,7 @@ import ImgFour from '../../images/svg-3.png'
 
 export const homeObjOne = 
 {
+    webLink: 'https://untbetas.wixsite.com/ntxslb/more-about-me',
     id: 'about',
     lightBg: false,
     lightText: true,
@@ -12,8 +13,8 @@ export const homeObjOne =
     location: 'about',
     topLine: 'SLB at UNT',
     headLine: 'The infamous theta beta chapter of sigma lambda beta',
-    description: 'stablished at the University of North Texas on April 29th, 2001 by 10 men.',
-    buttonLabel: 'Learn More',
+    description: 'Established at the University of North Texas on April 29th, 2001 by 10 men.',
+    buttonLabel: 'infoBtn',
     imgStart: false,
     img: ImgOne,
     alt: 'ProfessionalPics',
@@ -27,6 +28,7 @@ export const homeObjOne =
  //darkText: false, for description
 
  export const homeObjTwo = {
+    webLink: 'https://www.sigmalambdabeta.com/history',
     id: 'history',
     lightBg: true,
     lightText: false,
@@ -35,7 +37,7 @@ export const homeObjOne =
     headLine: "The beginning of Sigma lambda beta",
     description:
       "Sigma Lambda Beta International Fraternity Inc. was founded on April 4th, 1986 at the University of Iowa.",
-    buttonLabel: "Learn More",
+    buttonLabel: 'infoBtn2',
     imgStart: true,
     img: ImgTwo,
     alt: "LinePic",
@@ -45,14 +47,15 @@ export const homeObjOne =
   }
 
   export const homeObjThree = {
+    webLink:'mailto:danijaramillo26@yahoo.com',
     id: 'values',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: "What SLB Embodies",
-    headLine: "The four core principles of Sigma Lambda Beta",
-    description: "Cultural Awareness, Scholarship, Community Service, and Brotherhood",
-    buttonLabel: "Learn More",
+    topLine: "UNT SLB Contact Information",
+    headLine: "Have more questions? Feel free to reach us out from the following!",
+    description: "Instagram: SLB INSTA\nTwitter: SLB Twitter\nEmail us by pressing the button below!",
+    buttonLabel: 'infoBtn',
     imgStart: false,
     img: ImgThree,
     alt: "CommunityService",
@@ -62,6 +65,7 @@ export const homeObjOne =
   }
 
   export const homeObjFour = {
+    webLink: 'https://www.sigmalambdabeta.com/join-slb',
     id: 'qualifications',
     lightBg: true,
     lightText: false,
@@ -70,7 +74,7 @@ export const homeObjOne =
     headLine: "Qualifications",
     description:
       "Full-time (exceptions based on situation)\n2.5 GPA\nRepresents the four principles.",
-    buttonLabel: "Learn More",
+    buttonLabel: 'infoBtn2',
     imgStart: true,
     img: ImgFour,
     alt: "LinePic",

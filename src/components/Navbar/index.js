@@ -30,7 +30,7 @@ const Navbar = ({ toggle }) => {
                     </NavItem>
                 </NavMenu>
                 <NavBtn>
-                    <NavBtnLink><a href = "https://forms.gle/Rc283LmCSbyqGZJS9">Interest Form</a></NavBtnLink>
+                    <NavBtnLink><a href = "https://forms.gle/Rc283LmCSbyqGZJS9" className='navbarBtn'>Interest Form</a></NavBtnLink>
                 </NavBtn>
             </NavbarContainer>
         </Nav>

@@ -3,10 +3,10 @@ import { Button } from '../ButtonElement';
 import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, 
          TopLine, Heading, Subtitle, BtnWrap, ImgWrap,
          Img } from './InfoElements';
+import './info.css'
 
 
-
-const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, headLine,
+const InfoSection = ({ webLink, lightBg, id, imgStart, topLine, lightText, headLine,
                         darkText, description, buttonLabel, img, alt, primary,
                         dark, dark2, location}) => {
     return (
@@ -20,17 +20,12 @@ const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, headLine,
                                 <Heading lightText={lightText}>{headLine}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <BtnWrap>
-                                    <Button to= {location}
-                                    smooth={true}
-                                    duration={500}
-                                    spy={true}
-                                    exact= "true"
-                                    offset={-80}
+                                    <Button 
                                     primary={primary ? 1 : 0 }
                                     dark={dark ? 1 : 0 }
                                     dark2={dark2 ? 1 : 0 }
                                     >
-                                    {buttonLabel}
+                                    <a href={webLink} className={buttonLabel}>Learn More</a>
                                     </Button>
                                 </BtnWrap>
                             </TextWrapper>

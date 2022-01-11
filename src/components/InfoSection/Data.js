@@ -9,6 +9,7 @@ export const homeObjOne =
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
+    location: 'about',
     topLine: 'SLB at UNT',
     headLine: 'The infamous theta beta chapter of sigma lambda beta',
     description: 'stablished at the University of North Texas on April 29th, 2001 by 10 men.',

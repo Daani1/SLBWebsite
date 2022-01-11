@@ -116,5 +116,7 @@ export const NavBtnLink = styled.a`
     {
         transition: all 0.2s ease-in-out;
         color: #ffff;
+        background: #C0C0C0;
+
     }
 `

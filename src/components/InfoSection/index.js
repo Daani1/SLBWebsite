@@ -25,7 +25,7 @@ const InfoSection = ({ webLink, lightBg, id, imgStart, topLine, lightText, headL
                                     dark={dark ? 1 : 0 }
                                     dark2={dark2 ? 1 : 0 }
                                     >
-                                    <a href={webLink} className={buttonLabel}>Learn More</a>
+                                    <a href= {webLink} target='_blank' className={buttonLabel}>Learn More</a>
                                     </Button>
                                 </BtnWrap>
                             </TextWrapper>

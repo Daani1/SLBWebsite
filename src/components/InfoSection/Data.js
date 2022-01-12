@@ -6,6 +6,7 @@ import ImgFour from '../../images/svg-3.png'
 export const homeObjOne = 
 {
     webLink: 'https://untbetas.wixsite.com/ntxslb/more-about-me',
+    buttonName: 'Learn More',
     id: 'about',
     lightBg: false,
     lightText: true,
@@ -29,6 +30,7 @@ export const homeObjOne =
 
  export const homeObjTwo = {
     webLink: 'https://www.sigmalambdabeta.com/history',
+    buttonName: 'Learn More',
     id: 'history',
     lightBg: true,
     lightText: false,
@@ -48,13 +50,14 @@ export const homeObjOne =
 
   export const homeObjThree = {
     webLink:'mailto:danijaramillo26@yahoo.com',
+    buttonName: 'Email Us!',
     id: 'values',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
     topLine: "UNT SLB Contact Information",
     headLine: "Have more questions? Feel free to reach us out from the following!",
-    description: "Instagram: SLB INSTA\nTwitter: SLB Twitter\nEmail us by pressing the button below!",
+    description: "Instagram: SLB INSTA\nTwitter: SLB Twitter",
     buttonLabel: 'infoBtn',
     imgStart: false,
     img: ImgThree,
@@ -66,6 +69,7 @@ export const homeObjOne =
 
   export const homeObjFour = {
     webLink: 'https://www.sigmalambdabeta.com/join-slb',
+    buttonName: 'Learn More',
     id: 'qualifications',
     lightBg: true,
     lightText: false,

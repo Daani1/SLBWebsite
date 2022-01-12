@@ -5,3 +5,6 @@
     margin-bottom: 50px;
     
 }
+.footerSLB:hover {
+    cursor: pointer;
+  }

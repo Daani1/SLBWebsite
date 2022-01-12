@@ -11,3 +11,6 @@
   object-fit: contain;
   object-position: center center;
 }
+.navbarSLB:hover {
+  cursor: pointer;
+}

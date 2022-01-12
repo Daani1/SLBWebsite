@@ -58,8 +58,8 @@ const Footer = () => {
         </FooterLinkContainer>
         <SocialMedia>
           <SocialMediaWrap>
-          <img src ={SLB} className="footerSLB"></img>
-            <SocialLogo to="/" onClick={toggleHome}>
+          <img src ={SLB} className="footerSLB" onClick={toggleHome}></img>
+            <SocialLogo to="/" >
             <WebsiteRights>
             ΣΛΒ © {new Date().getFullYear()} All rights reserved.
             </WebsiteRights>

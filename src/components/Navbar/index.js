@@ -6,27 +6,51 @@ import SLBImage from '../../images/SLB.png';
 import './Navbar.css';
 
 const Navbar = ({ toggle }) => {
+    const imgClick = () => {
+        window.open('google.com');
+    }
+
     return (
         <>
         <Nav>
             <NavbarContainer>
                 {/* <NavLogo to='/'>ΣΛΒ</NavLogo> */}
-                <img src={SLBImage} className="navbarSLB"></img>
+                <img src={SLBImage} className="navbarSLB" onClick={() => imgClick()} ></img>
                 <MobileIcon onClick={toggle}>
                     <FaBars />
                 </MobileIcon>
                 <NavMenu>
                     <NavItem>
-                        <NavLinks to='about'>About</NavLinks>
+                        <NavLinks to='about'
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact="true"
+                        offset={-80}>About</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to='history'>History</NavLinks>
+                        <NavLinks to='history'
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact="true"
+                        offset={-80}>History</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to='values'>Values</NavLinks>
+                        <NavLinks to='values'
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact="true"
+                        offset={-80}>Values</NavLinks>
                     </NavItem>                    
                     <NavItem>
-                        <NavLinks to='qualifications'>Qualifications</NavLinks>
+                        <NavLinks to='qualifications'
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact="true"
+                        offset={-80}>Qualifications</NavLinks>
                     </NavItem>
                 </NavMenu>
                 <NavBtn>
